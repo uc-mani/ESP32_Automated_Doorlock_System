@@ -11,6 +11,9 @@ This project implements a secure, automated door lock system using LoRa communic
   - Optimized Encoding (switch from strings to integers for efficiency)
   - Configurable Unit Mapping
 
+<img width="1093" height="475" alt="DoorUnlockerWithLoRa" src="https://github.com/user-attachments/assets/4ca13c9e-d9c4-499f-a5a7-ca2dd615b022" />
+
+
 ## Project Structure
 The system includes:
 
@@ -26,6 +29,9 @@ The system includes:
 - Activates motor/relay to unlock door
 - Sends acknowledgment back including its unitAndBuilding code
 
+<img width="1024" height="1024" alt="shuntResistor" src="https://github.com/user-attachments/assets/877ef8d7-7e3c-4691-968e-89207377e1a8" />
+
+
 ### Code Design
 - unitAndBuilding format:
     XXXY → XXX = Unit, Y = Building
@@ -36,9 +42,20 @@ The system includes:
     Tower 1 → Units 101-104, 201-204, 301-304
     Tower 2 → Units 105-108, etc.
 
+![bluetooth2](https://github.com/user-attachments/assets/849e8140-432b-4da2-884c-6bad2755d554)
+
+
 ## Hardware Used
 - ESP32
 - LoRa SX1278 Modules
 - Relay/Motor Driver (L298N or equivalent)
 - DC Motor/Servo for locking mechanism
 - Shunt resistor for current sensing (Optional safety feature)
+
+
+![lightsleep](https://github.com/user-attachments/assets/345e21ea-b5b4-4b4a-baab-efcbc605e41b)
+
+![P_20241203_073611](https://github.com/user-attachments/assets/68ead53f-f8e5-44be-b4f2-402bda4e6007)
+
+![P_20241203_073623](https://github.com/user-attachments/assets/ac4fef24-02a2-498f-a39e-fbf158458514)
+
